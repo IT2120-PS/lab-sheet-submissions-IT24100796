@@ -8,7 +8,7 @@ getwd()
 
 #Part 2
 #What is the probability that at least 47 students passed the test?
-dbinom(47,50,0.85)
+1 - dbinom(46,50,0.85)
 
 #Question 2
 #Part 1
@@ -21,4 +21,5 @@ dbinom(47,50,0.85)
 
 #Part 3
 #What is the probability that exactly 15 calls are received in an hour?
+
 dpois(15,12)
